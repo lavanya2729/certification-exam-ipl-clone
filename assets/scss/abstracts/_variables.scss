@@ -1,0 +1,42 @@
+// ==== Standard Bootstrap Breakpoints ====
+
+$screen-sm: 576px;
+$screen-md: 767px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+
+// ==== Custom Breakpoints ====
+
+$screen-alt-363: 363px;
+$screen-alt-480: 480px;
+$screen-alt-768: 768px;
+$screen-alt-1024: 1024px;
+$screen-alt-1350: 1350px;
+$screen-alt-1500: 1500px;
+$screen-alt-1600: 1600px;
+
+// 2560 x 1600
+// 1920 × 1080 (8.89%)
+// 1536 × 864 (3.88%)
+// 1366 × 768 (8.44%)
+// 1024 x 768
+
+// 480 width
+// 375 width
+
+// no use
+// 414×896 (4.58%)
+// 375×667 (3.75%)
+// 360×640 (7.28%)
+
+/*------ font family variable --------
+==================================================*/
+
+$font-family: "Rubik", sans-serif;
+
+/*------ theme colors --------
+==================================================*/
+
+$base_clr : #e7e9f1;
+$text_clr : #142978;

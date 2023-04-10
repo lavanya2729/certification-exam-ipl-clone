@@ -1,0 +1,108 @@
+@import "./abstracts/_abstracts-dir";
+@import "./includes/_include-dir";
+@import "./reset";
+
+
+// ==== start : banner section ====
+.banner_section {
+    .swiper-slide {
+        height: calc(100vh - 8rem);
+        .left-side {
+            background-color: $base_clr;
+            height: calc(100vh - 8rem);
+            .content {
+                h1 {
+                    color: $text_clr;
+                    font-weight: 800;
+                }
+            }
+        }
+        .right-side {
+            height: calc(100vh - 8rem);
+            img {
+                height: calc(100vh - 8rem);
+            }
+        }
+    }
+}
+
+// ==== start : Team section ====
+
+.teams_section {
+    .teams_wrapper {
+        .card {
+            cursor: pointer;
+            background-color: $base_clr;
+            border-radius: 0.75rem;
+            img {
+                border-radius: 0.75rem 0.75rem 0 0;
+                object-fit: cover;
+                height: 60%;
+            }
+            .card-body {
+                border-radius: 0 0 0.75rem 0.75rem;
+                h6 {
+                    color: $text_clr;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+                p {
+                    @include line-break(2)
+                }
+                .winning_titles {
+                    gap: 0.5rem;
+                    i {
+                        font-size: 1.25rem;
+                    }
+                    color: #281e1e;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.team_details_section {
+    .line-2 {
+        @include line-break(2)
+    }
+    .team_details {
+        background-color: $base_clr;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        @include media-min-lg {
+           padding: 2rem;
+        }
+        
+        .border-right {
+            @include media-min-lg {
+                border-right: 2px solid gray;
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+    }
+    .col-lg-3 {
+        @include media-max-lg {
+            padding: 0;
+        }
+    }
+    .top_batsman {
+        .players_card {
+            border-radius: 0.7rem;
+            border: 2px solid $base_clr;
+
+            .card-img {
+                position: relative;
+                background-color: $base_clr;
+                border-radius: 0.7rem 0.7rem 0 0;
+                .icon {
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
+                }
+            }
+        }
+    }
+}

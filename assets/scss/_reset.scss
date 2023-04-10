@@ -1,0 +1,30 @@
+html { // ===== reset font size depends on screen size =====
+    font-size: 16px;
+    @include media-min-xxl {
+        font-size: 18px;
+    }
+    @include media-min-alt(1680px) {
+        font-size: 20px;
+    }
+    @include media-min-alt(1900px) {
+        font-size: 22px;
+    }
+    @include media-min-alt(2560px) {
+        font-size: 32px;
+    }
+    @include media-min-alt(3000px) {
+        font-size: 38px;
+    }
+    @include media-min-alt(3500px) {
+        font-size: 44px;
+    }
+    @include media-min-alt(4000px) {
+        font-size: 48px;
+    }
+    @include media-min-alt(4500px) {
+        font-size: 54px;
+    }
+    @include media-min-alt(4500px) {
+        font-size: 60px;
+    }
+}

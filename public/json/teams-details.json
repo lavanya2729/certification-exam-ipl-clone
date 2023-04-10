@@ -1,0 +1,126 @@
+[
+    {
+        "t_name" : "Chennai Super Kings",
+        "img" : "csk.jpg",
+        "desc" : "Chennai Super Kings (CSK) is an Indian Premier League (IPL) franchise cricket team based in Chennai, Tamil Nadu, India.",
+        "winning_titles" : 4,
+        "logo" : "csk-logo.png",
+        "official" : "https://www.chennaisuperkings.com/",
+        "players_count" : 11,
+        "top_batmans" : [
+            {
+                "name" : "Dhoni",
+                "img" : "dhoni.png",
+                "role" : "Keeper"
+            },
+            {
+                "name" : "Ruturaj",
+                "img" : "rut.png",
+                "role" : "Batman"
+            },
+            {
+                "name" : "Rayudu",
+                "img" : "rayudu.png",
+                "role" : "Batman"
+            },
+            {
+                "name" : "Conway",
+                "img" : "conway.png",
+                "role" : "Batman"
+            }
+        ],
+        "top_blowers" : [
+            {
+                "name" : "Deepak Chahar",
+                "img" : "chahar.png",
+                "role" : "Blower"
+            },
+            {
+                "name" : "Akash",
+                "img" : "akash.png",
+                "role" : "Blower"
+            },
+            {
+                "name" : "Mukesh",
+                "img" : "mukesh.png",
+                "role" : "Blower"
+            },
+            {
+                "name" : "Jameson",
+                "img" : "jameson.png",
+                "role" : "Blower"
+            }
+        ]
+    },
+    {
+        "t_name" : "Mumbai Indians",
+        "img" : "mi.jpg",
+        "desc" : "Mumbai Indians are a franchise cricket team based in Mumbai, Maharashtra, that competes in the Indian Premier League and is the most successful team of the tournament with 5 titles.",
+        "winning_titles" : 5,
+        "logo" : "mi-logo.png",
+        "official" : "https://www.mumbaiindians.com/",
+        "players_count" : 11,
+        "top_batmans" : [
+            {
+                "name" : "Rohit",
+                "img" : "rohit.png",
+                "role" : "Batman"
+            },
+            {
+                "name" : "Brevis",
+                "img" : "dw.png",
+                "role" : "Batman"
+            },
+            {
+                "name" : "Sky",
+                "img" : "sky.png",
+                "role" : "Batman"
+            },
+            {
+                "name" : "Kishan",
+                "img" : "kishan.png",
+                "role" : "Batman"
+            }
+        ],
+        "top_blowers" : [
+            {
+                "name" : "Archer",
+                "img" : "archer.png",
+                "role" : "Blower"
+            },
+            {
+                "name" : "Jhye",
+                "img" : "jhke.png",
+                "role" : "Blower"
+            },
+            {
+                "name" : "Chawla",
+                "img" : "chawla.png",
+                "role" : "Blower"
+            },
+            {
+                "name" : "Sandeep",
+                "img" : "sandeep.png",
+                "role" : "Blower"
+            }
+        ]
+    },
+    {
+        "t_name" : "Royal Challengers Bangalore",
+        "img" : "rcb.jpg",
+        "desc" : "Royal Challengers Bangalore (often abbreviated as RCB) are a franchise cricket team based in Bengaluru, Karnataka, that plays in the Indian Premier League (IPL).",
+        "winning_titles" : 0
+    },
+    {
+        "t_name" : "Rajasthan Royals",
+        "img" : "rr.jpg",
+        "desc" : "Rajasthan Royals (often abbreviated as RR) are a franchise cricket team based in Jaipur, Rajasthan, that plays in the Indian Premier League (IPL).",
+        "winning_titles" : 1
+    },
+    {
+        "t_name" : "Delhi Capitals",
+        "img" : "dc.jpg",
+        "desc" : "Delhi Capitals (formerly Delhi Daredevils) are a franchise cricket team based in Delhi that plays in the Indian Premier League (IPL).",
+        "winning_titles" : 0
+    }
+]

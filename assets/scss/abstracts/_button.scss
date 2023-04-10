@@ -1,0 +1,25 @@
+$buttons: "white" #fff#000,"blue"#142978#fff;
+
+@each $value in $buttons {
+  .btn-#{ nth($value, 1) } {
+    background-color: nth($value, 2) !important;
+    color: nth($value, 3) !important;
+    &:hover,
+    &:active {
+      background-color: nth($value, 2) !important;
+      border-color: nth($value, 2) !important;
+      color: nth($value, 3) !important;
+    }
+    &:focus {
+      box-shadow: none !important;
+      border: none;
+      outline: none;
+    }
+  } 
+}
+
+button {
+  &:focus {
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "t_name" : "Chennai Super Kings",
+        "img" : "csk.jpg",
+        "winning_titles" : 4
+    },
+    {
+        "t_name" : "Mumbai Indians",
+        "img" : "mi.jpg",
+        "winning_titles" : 5
+    },
+    {
+        "t_name" : "Royal Challengers Bangalore",
+        "img" : "rcb.jpg",
+        "winning_titles" : 0
+    },
+    {
+        "t_name" : "Rajasthan Royals",
+        "img" : "rr.jpg",
+        "winning_titles" : 1
+    },
+    {
+        "t_name" : "Delhi Capitals",
+        "img" : "dc.jpg",
+        "winning_titles" : 0
+    },
+    {
+        "t_name" : "Sunrisers Hyderabad",
+        "img" : "srh.jpg",
+        "winning_titles" : 1
+    },
+    {
+        "t_name" : "Kolkata Knight Riders",
+        "img" : "kkr.jpg",
+        "winning_titles" : 2
+    },
+    {
+        "t_name" : "Punjab Kings",
+        "img" : "pk.jpg",
+        "winning_titles" : 0
+    }
+]
